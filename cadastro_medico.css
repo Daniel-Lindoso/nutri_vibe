@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     background-image: url(imagens/maca.jpeg);
 
 }
@@ -66,12 +66,12 @@ body {
     position: relative;
     z-index: 2;
     border-radius: 18px;
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(2, 18, 252, 0.15);
     padding: 40px 30px 30px 30px;
     width: 370px;
     text-align: center;
     animation: slideDown 1s ease;
-    opacity: 0.65;
+    opacity: 0.75;
 }
 
 .cadastro-container img {
@@ -88,16 +88,15 @@ body {
 
 .cadastro-container h1 {
     margin-bottom: 18px;
-    /*color: #b76e79;*/
+    color: rgb(26, 126, 26)
+    
 }
-
 .input-group {
     margin-bottom: 18px;
     text-align: left;
 }
 
 .input-group label {
-    /*color: #b76e79;*/
     font-weight: bold;
     margin-bottom: 3px;
     display: block;
@@ -108,15 +107,11 @@ body {
     padding: 10px;
     border: none;
     border-radius: 8px;
-    background: #edf0ed;
-    color: #000000;
+    background: #e3eafc;
+    color: rgb(26, 126, 26);
     font-size: 1em;
     outline: none;
     transition: background 0.3s;
-}
-
-.input-group input:focus {
-    background: #476e4c8a;
 }
 
 .cadastro-btn {
