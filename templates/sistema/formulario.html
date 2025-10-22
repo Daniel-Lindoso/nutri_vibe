@@ -1,14 +1,15 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="formulario.css">
+    <link rel="stylesheet" type="text/css" href="{% static formulario.css}">
     <title>Formulário de Consulta - TEA</title>
 </head>
 <body>
     <div class="form-container">
-        <img src="https://cdn-icons-png.flaticon.com/512/201/201818.png" alt="TEA Logo" />
+        <img src="{% static https://cdn-icons-png.flaticon.com/512/201/201818.png}" alt="TEA Logo" />
         <h1>Formulário de Consulta</h1>
         <form method="post" action="" id="formularioConsulta">
             <div class="form-group">

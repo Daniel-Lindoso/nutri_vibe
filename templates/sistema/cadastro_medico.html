@@ -1,9 +1,10 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="cadastro_medico.css">
+    <link rel="stylesheet" type="text/css" href="{% static cadastro_medico.css}">
     <title>Cadastro de Médicos</title>
 </head>
 <body>
@@ -13,13 +14,13 @@
             <a href="login.html">Login</a>
             <a href="formularios-preenchimento.php">Formulários</a>
             <a href="index.html" class="voltar_menu">
-                <img src="imagens/casa-natural.jpeg">
+                <img src="{% static imagens/casa-natural.jpeg}">
             </a>
         </nav>
     </header>
     <section class="posicao">
     <div class="cadastro-container">
-        <img src="imagens/medica.png" alt="TEA Logo" />
+        <img src="{% static imagens/medica.png}" alt="TEA Logo" />
         <h1>Cadastro de Médicos</h1>
         <form method="POST" action="">
             <div class="input-group">
