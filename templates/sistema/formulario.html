@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="{% static formulario.css}">
+    <link rel="stylesheet" type="text/css" href="{% static 'formulario.css' %}">
     <title>Formulário de Consulta - TEA</title>
 </head>
 <body>
     <div class="form-container">
-        <img src="{% 'static https://cdn-icons-png.flaticon.com/512/201/201818.png' %}" alt="TEA Logo" />
+        <img src="{% static 'imagens/medica.png' %}" alt="TEA Logo" /> 
         <h1>Formulário de Consulta</h1>
         <form method="post" action="" id="formularioConsulta">
             <div class="form-group">
@@ -170,12 +170,6 @@
             <button class="submit-btn" type="submit" name="enviar" id="btnSalvar" disabled>Salvar</button>
         </form>
         <small>Preencha todos os campos necessários para melhor acompanhamento do paciente.</small>
-        <!-- <?php
-        if (isset($_POST['enviar'])) {
-            echo '<div class="success-message">Formulário enviado com sucesso!</div>';
-            // Aqui você pode adicionar o código para salvar os dados no banco de dados
-        }
-        ?> -->
     </div>
     <script>
         function mostrarOpcoesComportamento() {

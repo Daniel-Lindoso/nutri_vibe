@@ -10,7 +10,7 @@
     --tertiary: rgb(26, 126, 26);
     }
     body {
-        background-image: url(imagens/maca.jpeg);
+        background-image: url('../imagens/maca.jpeg');
         font-family:'Times New Roman', Times, serif;
         min-height: 100vh;
         margin: 0;
